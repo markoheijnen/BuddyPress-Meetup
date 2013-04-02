@@ -1,0 +1,23 @@
+/*
+Theme Name: 	WP Serbia
+Theme URI: 		http://markoheijnen.com
+Author: 		Marko Heijnen
+Author URI: 	http://markoheijnen.com
+Description: 	Description
+Version: 		1.0
+Template: 		bp-default
+*/
+
+.event {
+	float: left;
+	width: 70%;
+}
+
+.event-aside {
+	float: left;
+	width: 30%;
+}
+
+#respond {
+	clear: both;
+}

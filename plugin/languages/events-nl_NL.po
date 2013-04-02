@@ -1,0 +1,366 @@
+# Translation of Responsive Meetup in Dutch
+# This file is distributed under the same license as the Responsive Meetup package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-02-26 15:56:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Responsive Meetup\n"
+
+#: plugin/inc/meetups.php:99
+msgid "Separate types with commas"
+msgstr "Meerdere soorten scheiden met komma&#39;s"
+
+#: plugin/inc/rsvp.php:186
+msgid "Dear %s,"
+msgstr "Beste %s,"
+
+#: archive-event.php:31 plugin/inc/meetups.php:33 plugin/inc/meetups.php:45
+msgid "Events"
+msgstr "Evenementen"
+
+#: archive-event.php:42
+msgid "Permanent Link to %s"
+msgstr "Permanente link naar %s"
+
+#: archive-event.php:56 single-event.php:55
+msgid "Pages:"
+msgstr "Pagina&#39;s"
+
+#: archive-event.php:60
+msgid "Type:"
+msgstr "Type:"
+
+#: archive-event.php:63 single-event.php:63
+msgid "Edit"
+msgstr "Bewerken"
+
+#: archive-event.php:88 single-event.php:96
+msgid "%s attending"
+msgid_plural "%s attending"
+msgstr[0] "%s aanwezig"
+msgstr[1] "%s aanwezig"
+
+#: archive-event.php:92 single-event.php:100
+msgid "%s waiting"
+msgid_plural "%s waiting"
+msgstr[0] "%s wachtend"
+msgstr[1] "%s wachtend"
+
+#: archive-event.php:109 single-event.php:70 single-event.php:117
+msgid "&#8249; Older posts"
+msgstr "&#8249; Oudere berichten"
+
+#: archive-event.php:110 single-event.php:71 single-event.php:118
+msgid "Newer posts &#8250;"
+msgstr "Nieuwere berichten &#8250;"
+
+#: archive-event.php:116 single-event.php:124
+msgid "No events are planned"
+msgstr "Geen evenementen gepland"
+
+#: archive-event.php:118 single-event.php:126
+msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
+msgstr "Niet in paniek raken. Laten we kijken wat de mogelijkheden hier zijn."
+
+#: functions.php:29
+msgid "Upcoming"
+msgstr "Gepland"
+
+#: functions.php:30
+msgid "Past"
+msgstr "Geweest"
+
+#: plugin/inc/meetups.php:34
+msgid "event"
+msgstr "Evenement"
+
+#: plugin/inc/meetups.php:35
+msgid "Add new"
+msgstr "Toevoegen"
+
+#: plugin/inc/meetups.php:36
+msgid "Add new event"
+msgstr "Nieuwe evenement toevoegen"
+
+#: plugin/inc/meetups.php:37
+msgid "Edit event"
+msgstr "Evenement bewerken"
+
+#: plugin/inc/meetups.php:38
+msgid "New event"
+msgstr "Nieuwe evenement toevoegen"
+
+#: plugin/inc/meetups.php:39
+msgid "All events"
+msgstr "Alle evenementen"
+
+#: plugin/inc/meetups.php:40
+msgid "View event"
+msgstr "Evenement bekijken"
+
+#: plugin/inc/meetups.php:41
+msgid "Search events"
+msgstr "Zoek evenementen"
+
+#: plugin/inc/meetups.php:42
+msgid "No events found"
+msgstr "Geen evenementen gevonden"
+
+#: plugin/inc/meetups.php:43
+msgid "No events found in Trash"
+msgstr "Geen evenementen gevonden in de prullenbak"
+
+#: plugin/inc/meetups.php:67
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Pagina bijgewerkt. <a href=\"%s\">Evenement tonen</a>"
+
+#: plugin/inc/meetups.php:68
+msgid "Custom field updated."
+msgstr "Extra veld bijgewerkt."
+
+#: plugin/inc/meetups.php:69
+msgid "Custom field deleted."
+msgstr "Extra veld verwijderd."
+
+#: plugin/inc/meetups.php:70
+msgid "Event updated."
+msgstr "Evenement bijgewerkt."
+
+#: plugin/inc/meetups.php:72
+msgid "Event restored to revision from %s"
+msgstr "Evenement hersteld naar revisie van %s"
+
+#: plugin/inc/meetups.php:73
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Evenement gepubliceerd. <a href=\"%s\">Evenement tonen</a>"
+
+#: plugin/inc/meetups.php:74
+msgid "Event saved."
+msgstr "Evenement opgeslagen."
+
+#: plugin/inc/meetups.php:75
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Evenement ingediend. <a target=\"_blank\" href=\"%s\">Evenement tonen</a>"
+
+#: plugin/inc/meetups.php:76
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview event</a>"
+msgstr "Evenement gepland voor: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Voorbeeld bekijken</a>"
+
+#: plugin/inc/meetups.php:78
+msgid "M j, Y @ G:i"
+msgstr "j F Y @ H:i"
+
+#: plugin/inc/meetups.php:79
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Concept evenement bijgewerkt. <a target=\"_blank\" href=\"%s\">Evenement tonen</a>"
+
+#: plugin/inc/meetups.php:88
+msgid "Types"
+msgstr "Soorten"
+
+#: plugin/inc/meetups.php:89 plugin/inc/meetups.php:102
+msgid "Type"
+msgstr "Soort"
+
+#: plugin/inc/meetups.php:90
+msgid "Search types"
+msgstr "Zoek soorten"
+
+#: plugin/inc/meetups.php:91
+msgid "Popular types"
+msgstr "Populaire soorten"
+
+#: plugin/inc/meetups.php:92
+msgid "All types"
+msgstr "Alle soorten"
+
+#: plugin/inc/meetups.php:95
+msgid "Edit type"
+msgstr "Soort bewerken"
+
+#: plugin/inc/meetups.php:96
+msgid "Update type"
+msgstr "Soort bijwerken"
+
+#: plugin/inc/meetups.php:97
+msgid "Add new type"
+msgstr "Nieuwe soort toevoegen"
+
+#: plugin/inc/meetups.php:98
+msgid "New type name"
+msgstr "Nieuwe soort naam"
+
+#: plugin/inc/meetups.php:100
+msgid "Add or remove types"
+msgstr "Soorten toevoegen of verwijderen"
+
+#: plugin/inc/meetups.php:101
+msgid "Choose from the most used types"
+msgstr "Kies uit de meest gebruikte soorten"
+
+#: plugin/inc/meetups.php:119
+msgid "Event information"
+msgstr "Evenement informatie"
+
+#: plugin/inc/meetups.php:125
+msgid "Location name"
+msgstr "Locatienaam"
+
+#: plugin/inc/meetups.php:126
+msgid "Location address"
+msgstr "Locatieadres"
+
+#: plugin/inc/meetups.php:127
+msgid "Amount of spots"
+msgstr "Aantal plaatsen"
+
+#: plugin/inc/meetups.php:129
+msgid "Event date/time"
+msgstr "Evenement datum/tijd"
+
+#: plugin/inc/meetups.php:130
+msgid "Registration date/time"
+msgstr "Registratie datum/tijd"
+
+#: plugin/inc/rsvp.php:15 plugin/inc/rsvp.php:38
+msgid "Attend"
+msgstr "Aanwezig"
+
+#: plugin/inc/rsvp.php:16
+msgid "Not attend"
+msgstr "Niet aanwezig"
+
+#: plugin/inc/rsvp.php:17 plugin/inc/rsvp.php:68
+msgid "Waiting list"
+msgstr "Wachtlijst"
+
+#: plugin/inc/rsvp.php:23 plugin/inc/rsvp.php:116
+msgid "RSVP"
+msgstr "RSVP"
+
+#: plugin/inc/rsvp.php:39 plugin/inc/rsvp.php:49
+msgid "Attendee (%s)"
+msgid_plural "Attendees (%s)"
+msgstr[0] "Aanwezigen (%s)"
+msgstr[1] "Aanwezigen (%s)"
+
+#: plugin/inc/rsvp.php:48
+msgid "Attendee"
+msgstr "Aanwezige"
+
+#: plugin/inc/rsvp.php:58
+msgid "Non attendee"
+msgstr "Niet aanwezig"
+
+#: plugin/inc/rsvp.php:59
+msgid "Non attendee (%s)"
+msgid_plural "Non attendees (%s)"
+msgstr[0] "Niet aanwezig (%s)"
+msgstr[1] "Niet aanwezig (%s)"
+
+#: plugin/inc/rsvp.php:69
+msgid "Waiting list (%s)"
+msgstr "Wachtlijst (%s)"
+
+#: plugin/inc/rsvp.php:120
+msgid "RSVP has been closed"
+msgstr "Registratie is gesloten"
+
+#: plugin/inc/rsvp.php:123
+msgid "RSVP not open yet"
+msgstr "Registratie is nog niet geopend"
+
+#: plugin/inc/rsvp.php:132
+msgid "Please enter your name."
+msgstr "Vul je naam in."
+
+#: plugin/inc/rsvp.php:135
+msgid "Please enter your email."
+msgstr "Vul je e-mail in."
+
+#: plugin/inc/rsvp.php:137
+msgid "The email address isn&#8217;t correct."
+msgstr "Het ingevulde e-mailadres is geen geldig e-mailadres."
+
+#: plugin/inc/rsvp.php:153
+msgid "This email is already registered"
+msgstr "Dit e-mailadres is al geregistreerd."
+
+#: plugin/inc/rsvp.php:185
+msgid "RSVP for: %s"
+msgstr "Registratie voor: %s"
+
+#: plugin/inc/rsvp.php:189
+msgid "You are on the waitinglist for \"%s\"."
+msgstr "Je staat op de wachtlijst voor \"%s\"."
+
+#: plugin/inc/rsvp.php:191
+msgid "You just registered to not attend the event: %s."
+msgstr "Je staat geregistreerd om niet aanwezig te zijn voor: %s."
+
+#: plugin/inc/rsvp.php:193
+msgid "You just registered to attend the event: %s."
+msgstr "Je staat geregistreerd om deel te nemen aan: %s."
+
+#: plugin/inc/template.php:29
+msgid "Registration for %s"
+msgstr "Registratie voor: %s"
+
+#: plugin/inc/template.php:39
+msgid "You just registered for this event."
+msgstr "Je hebt je zojuist geregistreerd voor dit evenement"
+
+#: plugin/inc/template.php:53
+msgid "Name"
+msgstr "Naam"
+
+#: plugin/inc/template.php:58
+msgid "E-mail"
+msgstr "E-mail"
+
+#: plugin/inc/template.php:63
+msgid "Comment"
+msgstr "Reactie"
+
+#: plugin/inc/template.php:67
+msgid "Submit"
+msgstr "Verstuur"
+
+#: plugin/lib/custom-meta-boxes/classes.fields.php:310
+msgid "Allowed Image Files"
+msgstr "Toegestaande ​​beeldbestanden"
+
+#: single-event.php:43
+msgid "No Comments &darr;"
+msgstr "Geen Reacties &darr;"
+
+#: single-event.php:43
+msgid "1 Comment &darr;"
+msgstr "1 Reactie &darr;"
+
+#: single-event.php:43
+msgid "% Comments &darr;"
+msgstr "% Reacties &darr;"
+
+#: single-event.php:54
+msgid "Read more &#8250;"
+msgstr "Lees meer &#8250;"
+
+msgid "Responsive for WordPress meetups"
+msgstr "Responsive voor WordPress meetups"
+
+msgid "http://themeid.com/responsive-theme/"
+msgstr "http://themeid.com/responsive-theme/"
+
+msgid "Responsive Theme Meetups is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/"
+msgstr "Responsive Theme Meetups is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/"
+
+msgid "markoheijnen"
+msgstr "markoheijnen"
+
+msgid "http://markoheijnen.com"
+msgstr "http://markoheijnen.com"
