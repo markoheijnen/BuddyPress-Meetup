@@ -41,8 +41,9 @@
 							esc_html( date_i18n( get_option('time_format'), $timestamp ) )
 						);
 
-						$spots = absint( get_post_meta( get_the_ID(), 'spots', true ) );
-						$count = Responsive_Meetups_RSVP::counts( get_the_ID() );
+						$spots       = absint( get_post_meta( get_the_ID(), 'spots', true ) );
+						$count       = Responsive_Meetups_RSVP::counts( get_the_ID() );
+						$avatar_size = 50;
 
 						if( $timestamp > time() ) { ?>
 							<ul>
@@ -82,7 +83,7 @@
 						<h4><?php _e( 'Attendees', 'events' ); ?></h4>
 						<ul>
 							<?php foreach( $rsvps as $rsvp ) { ?>
-							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), 72, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
+							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), $avatar_size, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
 
 							<?php } ?>
 						</ul>
@@ -102,7 +103,7 @@
 						<h4><?php _e( 'Waitinglist', 'events' ); ?></h4>
 						<ul>
 							<?php foreach( $rsvps as $rsvp ) { ?>
-							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), 72, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
+							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), $avatar_size, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
 
 							<?php } ?>
 						</ul>
@@ -122,7 +123,7 @@
 						<h4><?php _e( 'Not Attendees', 'events' ); ?></h4>
 						<ul>
 							<?php foreach( $rsvps as $rsvp ) { ?>
-							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), 72, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
+							<li><?php echo get_avatar( get_post_meta( $rsvp, 'email', true ), $avatar_size, false, get_post_meta( $rsvp, 'name', true ) ); ?></li>
 
 							<?php } ?>
 						</ul>

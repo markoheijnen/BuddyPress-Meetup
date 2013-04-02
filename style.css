@@ -21,3 +21,14 @@ Template: 		bp-default
 #respond {
 	clear: both;
 }
+
+.page .rsvp-images ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.rsvp-images img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
