@@ -1,0 +1,378 @@
+# Translation of BuddyPress meetup in Serbian
+# This file is distributed under the same license as the BuddyPress meetup package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-04-03 00:31:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: BuddyPress meetup\n"
+
+msgid "Description"
+msgstr "Опис"
+
+msgid "Marko Heijnen"
+msgstr "Marko Heijnen"
+
+#: archive-event.php:10 plugin/inc/meetups.php:33 plugin/inc/meetups.php:45
+msgid "Events"
+msgstr "Догађаји"
+
+#: archive-event.php:19
+msgid "Permanent Link to %s"
+msgstr "Стални линк на %s"
+
+#: archive-event.php:33 single-event.php:22
+msgid "Pages:"
+msgstr "Странице:"
+
+#: archive-event.php:37
+msgid "Type:"
+msgstr "Тип:"
+
+#: archive-event.php:64 single-event.php:56
+msgid "%s spot"
+msgid_plural "%s spots"
+msgstr[0] "%s место"
+msgstr[1] "%s места"
+msgstr[2] "%s места"
+
+#: archive-event.php:67 single-event.php:59
+msgid "%s attending"
+msgid_plural "%s attending"
+msgstr[0] "%s похађају"
+msgstr[1] "%s похађају"
+msgstr[2] "%s похађају"
+
+#: archive-event.php:71 single-event.php:63
+msgid "%s waiting"
+msgid_plural "%s waiting"
+msgstr[0] "%s чекање"
+msgstr[1] "%s чекање"
+msgstr[2] "%s чекање"
+
+#: archive-event.php:92
+msgid "Not Found"
+msgstr "Није пронађено"
+
+#: event-rsvp.php:10 plugin/templates/rsvp.php:3
+msgid "Registration for %s"
+msgstr "Регистрација за %s"
+
+#: event-rsvp.php:17
+msgid "Before registrating for this event you first need to register for an user account."
+msgstr "Пре пријавни за овај догађај прво морате да се региструјете за кориснички налог."
+
+#: functions.php:84
+msgid "Upcoming"
+msgstr "Предстојећи"
+
+#: functions.php:85
+msgid "Past"
+msgstr "Прошлост"
+
+#: plugin/inc/meetups.php:34
+msgid "event"
+msgstr "догађај"
+
+#: plugin/inc/meetups.php:35
+msgid "Add new"
+msgstr "Додај нови"
+
+#: plugin/inc/meetups.php:36
+msgid "Add new event"
+msgstr "Додај нови догађај"
+
+#: plugin/inc/meetups.php:37
+msgid "Edit event"
+msgstr "Уреди догађај"
+
+#: plugin/inc/meetups.php:38
+msgid "New event"
+msgstr "Нови догађај"
+
+#: plugin/inc/meetups.php:39
+msgid "All events"
+msgstr "Сви догађаји"
+
+#: plugin/inc/meetups.php:40
+msgid "View event"
+msgstr "Погледајте догађаје"
+
+#: plugin/inc/meetups.php:41
+msgid "Search events"
+msgstr "Претрага догадјаја"
+
+#: plugin/inc/meetups.php:42
+msgid "No events found"
+msgstr "Нема пронађених догађаја"
+
+#: plugin/inc/meetups.php:43
+msgid "No events found in Trash"
+msgstr "Нема догађаја наћи у смеће"
+
+#: plugin/inc/meetups.php:67
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Догађај ажуриран. <a href=\"%s\">Преглед догађаја</a>"
+
+#: plugin/inc/meetups.php:68
+msgid "Custom field updated."
+msgstr "Прилагођено поље ажурира."
+
+#: plugin/inc/meetups.php:69
+msgid "Custom field deleted."
+msgstr "Прилагођено поље избрисан."
+
+#: plugin/inc/meetups.php:70
+msgid "Event updated."
+msgstr "Догађај ажуриран."
+
+#: plugin/inc/meetups.php:72
+msgid "Event restored to revision from %s"
+msgstr "Догађај враћен на ревизију из %s"
+
+#: plugin/inc/meetups.php:73
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Догађај објављени. <a href=\"%s\">Преглед догађаја</a>"
+
+#: plugin/inc/meetups.php:74
+msgid "Event saved."
+msgstr "Догађај је сачуван."
+
+#: plugin/inc/meetups.php:75
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Догађај послат. <a target=\"_blank\" href=\"%s\">преглед догађаја</a>"
+
+#: plugin/inc/meetups.php:76
+msgid "Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview event</a>"
+msgstr "Догађај заказан за: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">преглед догађаја</a>"
+
+#: plugin/inc/meetups.php:78
+msgid "M j, Y @ G:i"
+msgstr "j. F Y. у H:i"
+
+#: plugin/inc/meetups.php:79
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Догађај нацрт ажуриран. <a target=\"_blank\" href=\"%s\">преглед догађаја</a>"
+
+#: plugin/inc/meetups.php:88
+msgid "Types"
+msgstr "Типови"
+
+#: plugin/inc/meetups.php:89 plugin/inc/meetups.php:102
+msgid "Type"
+msgstr "тип"
+
+#: plugin/inc/meetups.php:90
+msgid "Search types"
+msgstr "Врсте претраге"
+
+#: plugin/inc/meetups.php:91
+msgid "Popular types"
+msgstr "Популарне врсте"
+
+#: plugin/inc/meetups.php:92
+msgid "All types"
+msgstr "Све врсте"
+
+#: plugin/inc/meetups.php:95
+msgid "Edit type"
+msgstr "Уреди тип"
+
+#: plugin/inc/meetups.php:96
+msgid "Update type"
+msgstr "Ажурирај тип"
+
+#: plugin/inc/meetups.php:97
+msgid "Add new type"
+msgstr "Dodaj novi tip"
+
+#: plugin/inc/meetups.php:98
+msgid "New type name"
+msgstr "Нови тип име"
+
+#: plugin/inc/meetups.php:99
+msgid "Separate types with commas"
+msgstr "Одвојена зарезима"
+
+#: plugin/inc/meetups.php:100
+msgid "Add or remove types"
+msgstr "Додати или одузети типове"
+
+#: plugin/inc/meetups.php:101
+msgid "Choose from the most used types"
+msgstr "Изаберите неку од најчешће коришћених типова"
+
+#: plugin/inc/meetups.php:119
+msgid "Event information"
+msgstr "Информације о догађају"
+
+#: plugin/inc/meetups.php:125
+msgid "Location name"
+msgstr "Локација име"
+
+#: plugin/inc/meetups.php:126
+msgid "Location address"
+msgstr "Локација адресу"
+
+#: plugin/inc/meetups.php:127
+msgid "Amount of spots"
+msgstr "Износ спотова"
+
+#: plugin/inc/meetups.php:129
+msgid "Event date/time"
+msgstr "Догађај регистрације/време"
+
+#: plugin/inc/meetups.php:130
+msgid "Registration date/time"
+msgstr "регистрација регистрације/време"
+
+#: plugin/inc/rsvp.php:18 plugin/inc/rsvp.php:41
+msgid "Attend"
+msgstr "похађати"
+
+#: plugin/inc/rsvp.php:19
+msgid "Not attend"
+msgstr "не похађају"
+
+#: plugin/inc/rsvp.php:20 plugin/inc/rsvp.php:71
+msgid "Waiting list"
+msgstr "lista čekanja"
+
+#: plugin/inc/rsvp.php:26 plugin/inc/rsvp.php:169
+msgid "RSVP"
+msgstr "Регистрација"
+
+#: plugin/inc/rsvp.php:42 plugin/inc/rsvp.php:52
+msgid "Attendee (%s)"
+msgid_plural "Attendees (%s)"
+msgstr[0] "полазник (%s)"
+msgstr[1] "полазници (%s)"
+msgstr[2] "полазници (%s)"
+
+#: plugin/inc/rsvp.php:51
+msgid "Attendee"
+msgstr "полазник"
+
+#: plugin/inc/rsvp.php:61
+msgid "Non attendee"
+msgstr "Не полазник"
+
+#: plugin/inc/rsvp.php:62
+msgid "Non attendee (%s)"
+msgid_plural "Non attendees (%s)"
+msgstr[0] "Не полазник (%s)"
+msgstr[1] "Нон полазници (%s)"
+msgstr[2] "Нон полазници (%s)"
+
+#: plugin/inc/rsvp.php:72
+msgid "Waiting list (%s)"
+msgstr "листа чекања (%s)"
+
+#: plugin/inc/rsvp.php:85
+msgid "RSVP's"
+msgstr "Регистрације"
+
+#: plugin/inc/rsvp.php:106 plugin/inc/template.php:51
+msgid "Name"
+msgstr "Име"
+
+#: plugin/inc/rsvp.php:107 plugin/inc/template.php:56
+msgid "E-mail"
+msgstr "E-mail"
+
+#: plugin/inc/rsvp.php:108 plugin/inc/template.php:61
+msgid "Comment"
+msgstr "Коментар"
+
+#: plugin/inc/rsvp.php:173
+msgid "RSVP has been closed"
+msgstr "Регистрација је затворена"
+
+#: plugin/inc/rsvp.php:176
+msgid "RSVP not open yet"
+msgstr "Регистрација није отворен још"
+
+#: plugin/inc/rsvp.php:185
+msgid "Please enter your name."
+msgstr "Молимо Вас да унесете своје име."
+
+#: plugin/inc/rsvp.php:188
+msgid "Please enter your email."
+msgstr "Молимо унесите вашу е-поште."
+
+#: plugin/inc/rsvp.php:190
+msgid "The email address isn&#8217;t correct."
+msgstr "Емаил адреса није исправна."
+
+#: plugin/inc/rsvp.php:206
+msgid "This email is already registered"
+msgstr "Овај емаил је већ регистрован"
+
+#: plugin/inc/rsvp.php:238
+msgid "RSVP for: %s"
+msgstr "Регистрација за: %s"
+
+#: plugin/inc/rsvp.php:239
+msgid "Dear %s,"
+msgstr "Драги %s,"
+
+#: plugin/inc/rsvp.php:242
+msgid "You are on the waitinglist for \"%s\"."
+msgstr "Ви сте на листи чекања за \"%s\"."
+
+#: plugin/inc/rsvp.php:244
+msgid "You just registered to not attend the event: %s."
+msgstr "Само регистровани сте да не присуствују овом догађају: %s."
+
+#: plugin/inc/rsvp.php:246
+msgid "You just registered to attend the event: %s."
+msgstr "Само регистровани Вас да присуствујете овом догађају: %s."
+
+#: plugin/inc/template.php:37
+msgid "You just registered for this event."
+msgstr "Само регистровани сте за овај догађај."
+
+#: plugin/inc/template.php:65
+msgid "Submit"
+msgstr "Пошаљи"
+
+#: plugin/lib/custom-meta-boxes/classes.fields.php:310
+msgid "Allowed Image Files"
+msgstr "Дозвољени Имаге Филес"
+
+#: single-event.php:21
+msgid "Read more &#8250;"
+msgstr "Прочитај више &#8250;"
+
+#: single-event.php:83
+msgid "Attendees"
+msgstr "полазници"
+
+#: single-event.php:103
+msgid "Waitinglist"
+msgstr "листа чекања"
+
+#: single-event.php:123
+msgid "Not Attendees"
+msgstr "Не полазници"
+
+#: single-event.php:142
+msgid "&#8249; Older posts"
+msgstr "&#8249; Старији постови"
+
+#: single-event.php:143
+msgid "Newer posts &#8250;"
+msgstr "Новије поруке &#8250;"
+
+#: single-event.php:149
+msgid "Sorry, no posts matched your criteria."
+msgstr "Нажалост, нема постова одговарају вашим критеријумима."
+
+msgid "WP Serbia"
+msgstr "WP Србија"
+
+msgid "http://markoheijnen.com"
+msgstr "http://markoheijnen.com"
