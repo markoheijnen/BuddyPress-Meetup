@@ -13,15 +13,15 @@ class Responsive_Meetups_RSVP {
 
 		add_action( 'add_meta_boxes', array( $this, 'add_meta_boxes' ) );
 		add_action( 'save', array( $this, 'add_meta_boxes_save' ) );
+	}
 
+	public function register_post_type() {
 		self::$post_statuses = array(
 			'attend'      => __( 'Attend', 'events' ),
 			'notattend'   => __( 'Not attend', 'events' ),
 			'waitinglist' => __( 'Waiting list', 'events' )
 		);
-	}
 
-	public function register_post_type() {
 		$args = array(
 			'label'           => __( 'RSVP', 'events' ),
 			'public'          => false,
@@ -163,7 +163,7 @@ class Responsive_Meetups_RSVP {
 			$is_rsvp = self::is_rsvp( $event_id );
 
 			if( $is_rsvp )
-				echo $is_rsvp;
+				echo self::$post_statuses[ $is_rsvp ];
 			else {
 				$link = get_permalink( $event_id ) . 'rsvp/';
 				echo '<a href="' . $link . '">' . __( 'RSVP', 'events' ) . '</a>';
@@ -182,12 +182,12 @@ class Responsive_Meetups_RSVP {
 		$errors = new WP_Error();
 
 		if( empty( $name ) )
-			$errors->add( 'empty_name', __( 'Please enter your name.' ) );
+			$errors->add( 'empty_name', __( 'Please enter your name.', 'events' ) );
 
 		if( empty( $email ) )
-			$errors->add( 'empty_email', __( 'Please enter your email.' ) );
+			$errors->add( 'empty_email', __( 'Please enter your email.', 'events' ) );
 		else if( ! is_email( $email ) )
-			$errors->add( 'invalid_email', __( 'The email address isn&#8217;t correct.' ) );
+			$errors->add( 'invalid_email', __( 'The email address isn&#8217;t correct.', 'events' ) );
 		else {
 			$args = array(
 				'post_type'   => 'rsvp',

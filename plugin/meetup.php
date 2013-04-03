@@ -21,17 +21,17 @@ class Meetups {
 
 	public function load_textdomain_theme() {
 		add_filter( 'theme_locale', array( $this, 'theme_locale' ), 10, 2 );
-		load_theme_textdomain( 'meetups', get_stylesheet_directory() . '/plugin/languages' );
+		load_theme_textdomain( 'events', get_stylesheet_directory() . '/plugin/languages' );
 		remove_filter( 'theme_locale', array( $this, 'theme_locale' ) );
 	}
 
 	public function load_textdomain_plugin() {
-		load_plugin_textdomain( 'responsive_meetups', false, basename( dirname( __FILE__ ) ) . '/languages' );
+		load_plugin_textdomain( 'events', false, basename( dirname( __FILE__ ) ) . '/languages' );
 	}
 
 
 	public function theme_locale( $locale, $domain ) {
-		if( 'responsive_meetups' == $domain )
+		if( 'events' == $domain )
 			return "{$domain}-{$locale}";
 
 		return $locale;
