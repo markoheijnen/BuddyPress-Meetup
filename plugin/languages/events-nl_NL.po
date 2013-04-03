@@ -1,76 +1,72 @@
-# Translation of Responsive Meetup in Dutch
-# This file is distributed under the same license as the Responsive Meetup package.
+# Translation of BuddyPress meetup in Dutch
+# This file is distributed under the same license as the BuddyPress meetup package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-02-26 15:56:19+0000\n"
+"PO-Revision-Date: 2013-04-03 00:33:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: Responsive Meetup\n"
+"Project-Id-Version: BuddyPress meetup\n"
 
-#: plugin/inc/meetups.php:99
-msgid "Separate types with commas"
-msgstr "Meerdere soorten scheiden met komma&#39;s"
+msgid "Description"
+msgstr "Omschrijving"
 
-#: plugin/inc/rsvp.php:186
-msgid "Dear %s,"
-msgstr "Beste %s,"
+msgid "Marko Heijnen"
+msgstr "Marko Heijnen"
 
-#: archive-event.php:31 plugin/inc/meetups.php:33 plugin/inc/meetups.php:45
+#: archive-event.php:10 plugin/inc/meetups.php:33 plugin/inc/meetups.php:45
 msgid "Events"
 msgstr "Evenementen"
 
-#: archive-event.php:42
+#: archive-event.php:19
 msgid "Permanent Link to %s"
 msgstr "Permanente link naar %s"
 
-#: archive-event.php:56 single-event.php:55
+#: archive-event.php:33 single-event.php:22
 msgid "Pages:"
 msgstr "Pagina&#39;s"
 
-#: archive-event.php:60
+#: archive-event.php:37
 msgid "Type:"
 msgstr "Type:"
 
-#: archive-event.php:63 single-event.php:63
-msgid "Edit"
-msgstr "Bewerken"
+#: archive-event.php:64 single-event.php:56
+msgid "%s spot"
+msgid_plural "%s spots"
+msgstr[0] "%s plek"
+msgstr[1] "%s plekken"
 
-#: archive-event.php:88 single-event.php:96
+#: archive-event.php:67 single-event.php:59
 msgid "%s attending"
 msgid_plural "%s attending"
 msgstr[0] "%s aanwezig"
 msgstr[1] "%s aanwezig"
 
-#: archive-event.php:92 single-event.php:100
+#: archive-event.php:71 single-event.php:63
 msgid "%s waiting"
 msgid_plural "%s waiting"
 msgstr[0] "%s wachtend"
 msgstr[1] "%s wachtend"
 
-#: archive-event.php:109 single-event.php:70 single-event.php:117
-msgid "&#8249; Older posts"
-msgstr "&#8249; Oudere berichten"
+#: archive-event.php:92
+msgid "Not Found"
+msgstr "Niet gevonden"
 
-#: archive-event.php:110 single-event.php:71 single-event.php:118
-msgid "Newer posts &#8250;"
-msgstr "Nieuwere berichten &#8250;"
+#: event-rsvp.php:10 plugin/templates/rsvp.php:3
+msgid "Registration for %s"
+msgstr "Registratie voor: %s"
 
-#: archive-event.php:116 single-event.php:124
-msgid "No events are planned"
-msgstr "Geen evenementen gepland"
+#: event-rsvp.php:17
+msgid "Before registrating for this event you first need to register for an user account."
+msgstr "Voor je registratie voor dit evenement moet je jezelf eerst registreren voor een account."
 
-#: archive-event.php:118 single-event.php:126
-msgid "Don&#39;t panic, we&#39;ll get through this together. Let&#39;s explore our options here."
-msgstr "Niet in paniek raken. Laten we kijken wat de mogelijkheden hier zijn."
-
-#: functions.php:29
+#: functions.php:84
 msgid "Upcoming"
 msgstr "Gepland"
 
-#: functions.php:30
+#: functions.php:85
 msgid "Past"
 msgstr "Geweest"
 
@@ -194,6 +190,10 @@ msgstr "Nieuwe soort toevoegen"
 msgid "New type name"
 msgstr "Nieuwe soort naam"
 
+#: plugin/inc/meetups.php:99
+msgid "Separate types with commas"
+msgstr "Meerdere soorten scheiden met komma&#39;s"
+
 #: plugin/inc/meetups.php:100
 msgid "Add or remove types"
 msgstr "Soorten toevoegen of verwijderen"
@@ -226,107 +226,111 @@ msgstr "Evenement datum/tijd"
 msgid "Registration date/time"
 msgstr "Registratie datum/tijd"
 
-#: plugin/inc/rsvp.php:15 plugin/inc/rsvp.php:38
+#: plugin/inc/rsvp.php:18 plugin/inc/rsvp.php:41
 msgid "Attend"
 msgstr "Aanwezig"
 
-#: plugin/inc/rsvp.php:16
+#: plugin/inc/rsvp.php:19
 msgid "Not attend"
 msgstr "Niet aanwezig"
 
-#: plugin/inc/rsvp.php:17 plugin/inc/rsvp.php:68
+#: plugin/inc/rsvp.php:20 plugin/inc/rsvp.php:71
 msgid "Waiting list"
 msgstr "Wachtlijst"
 
-#: plugin/inc/rsvp.php:23 plugin/inc/rsvp.php:116
+#: plugin/inc/rsvp.php:26 plugin/inc/rsvp.php:169
 msgid "RSVP"
 msgstr "RSVP"
 
-#: plugin/inc/rsvp.php:39 plugin/inc/rsvp.php:49
+#: plugin/inc/rsvp.php:42 plugin/inc/rsvp.php:52
 msgid "Attendee (%s)"
 msgid_plural "Attendees (%s)"
 msgstr[0] "Aanwezigen (%s)"
 msgstr[1] "Aanwezigen (%s)"
 
-#: plugin/inc/rsvp.php:48
+#: plugin/inc/rsvp.php:51
 msgid "Attendee"
 msgstr "Aanwezige"
 
-#: plugin/inc/rsvp.php:58
+#: plugin/inc/rsvp.php:61
 msgid "Non attendee"
 msgstr "Niet aanwezig"
 
-#: plugin/inc/rsvp.php:59
+#: plugin/inc/rsvp.php:62
 msgid "Non attendee (%s)"
 msgid_plural "Non attendees (%s)"
 msgstr[0] "Niet aanwezig (%s)"
 msgstr[1] "Niet aanwezig (%s)"
 
-#: plugin/inc/rsvp.php:69
+#: plugin/inc/rsvp.php:72
 msgid "Waiting list (%s)"
 msgstr "Wachtlijst (%s)"
 
-#: plugin/inc/rsvp.php:120
-msgid "RSVP has been closed"
-msgstr "Registratie is gesloten"
+#: plugin/inc/rsvp.php:85
+msgid "RSVP's"
+msgstr "Registreren"
 
-#: plugin/inc/rsvp.php:123
-msgid "RSVP not open yet"
-msgstr "Registratie is nog niet geopend"
-
-#: plugin/inc/rsvp.php:132
-msgid "Please enter your name."
-msgstr "Vul je naam in."
-
-#: plugin/inc/rsvp.php:135
-msgid "Please enter your email."
-msgstr "Vul je e-mail in."
-
-#: plugin/inc/rsvp.php:137
-msgid "The email address isn&#8217;t correct."
-msgstr "Het ingevulde e-mailadres is geen geldig e-mailadres."
-
-#: plugin/inc/rsvp.php:153
-msgid "This email is already registered"
-msgstr "Dit e-mailadres is al geregistreerd."
-
-#: plugin/inc/rsvp.php:185
-msgid "RSVP for: %s"
-msgstr "Registratie voor: %s"
-
-#: plugin/inc/rsvp.php:189
-msgid "You are on the waitinglist for \"%s\"."
-msgstr "Je staat op de wachtlijst voor \"%s\"."
-
-#: plugin/inc/rsvp.php:191
-msgid "You just registered to not attend the event: %s."
-msgstr "Je staat geregistreerd om niet aanwezig te zijn voor: %s."
-
-#: plugin/inc/rsvp.php:193
-msgid "You just registered to attend the event: %s."
-msgstr "Je staat geregistreerd om deel te nemen aan: %s."
-
-#: plugin/inc/template.php:29
-msgid "Registration for %s"
-msgstr "Registratie voor: %s"
-
-#: plugin/inc/template.php:39
-msgid "You just registered for this event."
-msgstr "Je hebt je zojuist geregistreerd voor dit evenement"
-
-#: plugin/inc/template.php:53
+#: plugin/inc/rsvp.php:106 plugin/inc/template.php:51
 msgid "Name"
 msgstr "Naam"
 
-#: plugin/inc/template.php:58
+#: plugin/inc/rsvp.php:107 plugin/inc/template.php:56
 msgid "E-mail"
 msgstr "E-mail"
 
-#: plugin/inc/template.php:63
+#: plugin/inc/rsvp.php:108 plugin/inc/template.php:61
 msgid "Comment"
 msgstr "Reactie"
 
-#: plugin/inc/template.php:67
+#: plugin/inc/rsvp.php:173
+msgid "RSVP has been closed"
+msgstr "Registratie is gesloten"
+
+#: plugin/inc/rsvp.php:176
+msgid "RSVP not open yet"
+msgstr "Registratie is nog niet geopend"
+
+#: plugin/inc/rsvp.php:185
+msgid "Please enter your name."
+msgstr "Vul je naam in."
+
+#: plugin/inc/rsvp.php:188
+msgid "Please enter your email."
+msgstr "Vul je e-mail in."
+
+#: plugin/inc/rsvp.php:190
+msgid "The email address isn&#8217;t correct."
+msgstr "Het ingevulde e-mailadres is geen geldig e-mailadres."
+
+#: plugin/inc/rsvp.php:206
+msgid "This email is already registered"
+msgstr "Dit e-mailadres is al geregistreerd."
+
+#: plugin/inc/rsvp.php:238
+msgid "RSVP for: %s"
+msgstr "Registratie voor: %s"
+
+#: plugin/inc/rsvp.php:239
+msgid "Dear %s,"
+msgstr "Beste %s,"
+
+#: plugin/inc/rsvp.php:242
+msgid "You are on the waitinglist for \"%s\"."
+msgstr "Je staat op de wachtlijst voor \"%s\"."
+
+#: plugin/inc/rsvp.php:244
+msgid "You just registered to not attend the event: %s."
+msgstr "Je staat geregistreerd om niet aanwezig te zijn voor: %s."
+
+#: plugin/inc/rsvp.php:246
+msgid "You just registered to attend the event: %s."
+msgstr "Je staat geregistreerd om deel te nemen aan: %s."
+
+#: plugin/inc/template.php:37
+msgid "You just registered for this event."
+msgstr "Je hebt je zojuist geregistreerd voor dit evenement"
+
+#: plugin/inc/template.php:65
 msgid "Submit"
 msgstr "Verstuur"
 
@@ -334,33 +338,36 @@ msgstr "Verstuur"
 msgid "Allowed Image Files"
 msgstr "Toegestaande ​​beeldbestanden"
 
-#: single-event.php:43
-msgid "No Comments &darr;"
-msgstr "Geen Reacties &darr;"
-
-#: single-event.php:43
-msgid "1 Comment &darr;"
-msgstr "1 Reactie &darr;"
-
-#: single-event.php:43
-msgid "% Comments &darr;"
-msgstr "% Reacties &darr;"
-
-#: single-event.php:54
+#: single-event.php:21
 msgid "Read more &#8250;"
 msgstr "Lees meer &#8250;"
 
-msgid "Responsive for WordPress meetups"
-msgstr "Responsive voor WordPress meetups"
+#: single-event.php:83
+msgid "Attendees"
+msgstr "aanwezigen"
 
-msgid "http://themeid.com/responsive-theme/"
-msgstr "http://themeid.com/responsive-theme/"
+#: single-event.php:103
+msgid "Waitinglist"
+msgstr "Wachtlijst"
 
-msgid "Responsive Theme Meetups is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/"
-msgstr "Responsive Theme Meetups is a flexible foundation with fluid grid system that adapts your website to mobile devices and the desktop or any other viewing environment. Theme features 9 Page Templates, 11 Widget Areas, 6 Template Layouts, 4 Menu Positions and more. Powerful but simple Theme Options for full CMS control with easy Logo Upload, Social Networking and Webmaster Tools etc. Responsive is WooCommerce Compatible, Multilingual Ready (WPML), RTL-Language Support, Retina-Ready, W3C Markup Validated and currently translated into 40 languages. Cross-Browser compatible and yes even the IE7. No paid memberships or clubs to get a FREE/Responsive Support you need. http://themeid.com/support/"
+#: single-event.php:123
+msgid "Not Attendees"
+msgstr "Niet aanwezig"
 
-msgid "markoheijnen"
-msgstr "markoheijnen"
+#: single-event.php:142
+msgid "&#8249; Older posts"
+msgstr "&#8249; Oudere berichten"
+
+#: single-event.php:143
+msgid "Newer posts &#8250;"
+msgstr "Nieuwere berichten &#8250;"
+
+#: single-event.php:149
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sorry, geen berichten gevonden die aan uw criteria."
+
+msgid "WP Serbia"
+msgstr "WP Servië"
 
 msgid "http://markoheijnen.com"
 msgstr "http://markoheijnen.com"
